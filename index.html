@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Easy Flexbox</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <p>
+            The next container is a flexbox that does <em>not</em> set
+            <code>flex-grow:</code>, nor <code>justify-content:</code>, nor
+            <code>width:</code> .
+        </p>
+        <div id="container1">
+            <div class="red">red stuff</div>
+            <div class="blue">blue stuff</div>
+            <div class="orange">orange stuff</div>
+        </div>
+        <p>
+            The next container is a flexbox that sets
+            <code>flex-grow:1</code> on each item of the flexbox.
+        </p>
+        <div id="container2">
+            <div class="red">red stuff</div>
+            <div class="blue">blue stuff</div>
+            <div class="orange">orange stuff</div>
+        </div>
+        <p>
+            The next container implements
+            <code>justify-content:space-around</code> .
+        </p>
+        <div id="container3">
+            <div class="red">red stuff</div>
+            <div class="blue">blue stuff</div>
+            <div class="orange">orange stuff</div>
+        </div>
+        <p>
+            The next container implements
+            <code>flex-grow:</code> to '2' on the middle element and to '1' on
+            the others.
+        </p>
+        <div id="container4">
+            <div class="red">red stuff</div>
+            <div class="blue">blue stuff</div>
+            <div class="orange">orange stuff</div>
+        </div>
+        <p>
+            Flexbox with <code>width:20%</code> for the flex items. Note: they
+            wrap, since <code>flex-wrap:wrap</code> and
+            <code>padding:40px</code>, oterwise they would not, since 20% + 20%
+            + 20% = 60%, constantly, at each resolution.
+        </p>
+        <div id="container5">
+            <div class="red">red stuff</div>
+            <div class="blue">blue stuff</div>
+            <div class="orange">orange stuff</div>
+        </div>
+    </body>
+</html>
