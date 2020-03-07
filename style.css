@@ -11,6 +11,17 @@ body {
     font-size: 1.1em;
 }
 
+h1 {
+    color: black;
+    margin-left: 4px;
+}
+
+h4 {
+    color: grey;
+    font-style: italic;
+    margin-left: 6px;
+}
+
 p {
     color: black;
     margin-top: 20px;
